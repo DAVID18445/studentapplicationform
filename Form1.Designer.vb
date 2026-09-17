@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class frmApplication
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -229,12 +229,12 @@ Partial Class Form1
         GroupBox1.TabStop = False
         GroupBox1.Text = "GroupBox1"
         ' 
-        ' Form1
+        ' frmApplication
         ' 
         AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.SlateGray
-        ClientSize = New Size(1044, 652)
+        ClientSize = New Size(1040, 708)
         Controls.Add(Button3)
         Controls.Add(Button2)
         Controls.Add(Button1)
@@ -253,8 +253,8 @@ Partial Class Form1
         Controls.Add(Label2)
         Controls.Add(Label1)
         Controls.Add(GroupBox1)
-        Name = "Form1"
-        Text = "Form1"
+        Name = "frmApplication"
+        Text = "Student Application"
         GroupBox1.ResumeLayout(False)
         GroupBox1.PerformLayout()
         ResumeLayout(False)
